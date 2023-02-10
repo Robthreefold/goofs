@@ -41,8 +41,8 @@ def get_github_org_name(repo_url:str) -> str:
 # Parse GitHub repo name from GitHub repo full name 
 def get_github_repo_name(repo_url:str) -> str:
     try:
-        repo_full_name = get_repo_full_name_from_repo_url(repo_url)
-        github_repo = repo_full_name.split("/")
+        # repo_full_name = get_repo_full_name_from_repo_url(repo_url)
+        github_repo = repo_url.split("/")
         return github_repo[1]
     except:
         print(f"The following remote repo: {repo_url} is invalid")
