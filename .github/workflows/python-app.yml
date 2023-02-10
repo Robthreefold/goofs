@@ -11,8 +11,8 @@ permissions:
 env:
     REMOTE_REPO_URL: ${{ github.repository }},
     GITHUB_ORG: ${{ github.repository.owner }}
-    SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }},
-    GH_TOKEN: ${{ secrets.GH_TOKEN }},
+    SNYK_TOKEN: ${{ vars.SNYK_TOKEN }},
+    GH_TOKEN: ${{ vars.GH_TOKEN }},
     POETRY_VIRTUALENVS_CREATE: false
 
 jobs:
