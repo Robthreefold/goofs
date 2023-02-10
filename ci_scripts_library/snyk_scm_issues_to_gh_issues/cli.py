@@ -192,7 +192,7 @@ def snyk_license_check():
             time.sleep(g['delay'])
 
 def snyk_license_endpoint(token, orgId):
-    print("Snyk org name: " + g['snyk_org'])
+    print(g['snyk_org'])
     body = {
     "filters": {
       "languages": [
