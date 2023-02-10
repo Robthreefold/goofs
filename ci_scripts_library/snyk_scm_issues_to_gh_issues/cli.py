@@ -101,8 +101,9 @@ def main(ctx: typer.Context,
     if not g['snyk_org']:
         sys.exit(f"Can not find GitHub organization in Snyk.  Check Snyk to make sure {g['github_org']} is the current Snyk organization slug.")
 
-    g['repo_full_name'] = get_repo_full_name_from_repo_url(remote_repo_url)
-    g['github_org'] = get_github_org_name(remote_repo_url)
+    # g['repo_full_name'] = get_repo_full_name_from_repo_url(remote_repo_url)
+    g['repo_full_name'] = remote_repo_url
+    # g['github_org'] = get_github_org_name(remote_repo_url)
     g['github_repo'] = get_github_repo_name(remote_repo_url)
     g['repo_open_issues'] = g['github_client'].get_repo_issues_and_metadata(g['repo_full_name'], METADATA_PREFIX)
 
