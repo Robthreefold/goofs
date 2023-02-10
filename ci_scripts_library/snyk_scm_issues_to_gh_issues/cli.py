@@ -37,11 +37,6 @@ def main(ctx: typer.Context,
         envvar="GH_TOKEN",
         help="GitHub access token, if not set here will load from ENV VAR GITHUB_TOKEN"
     ),
-    github_org: str = typer.Option(
-        None,
-        envvar="GITHUB_ORG",
-        help="GitHub access token, if not set here will load from ENV VAR GITHUB_TOKEN"
-    ),
     snyk_token: str = typer.Option(
         None,
         envvar="SNYK_TOKEN",
@@ -70,8 +65,6 @@ def main(ctx: typer.Context,
 
     github_token = github_token.replace(',', '')
     g['github_token'] = github_token
-    # g['github_org'] = github_org
-    # typer.echo(g['github_org'])
     
     snyk_token = snyk_token.replace(',', '')
     g['snyk_token'] = snyk_token
@@ -90,7 +83,7 @@ def main(ctx: typer.Context,
     g['github_client'] = GitHub(g['github_token'])
     typer.echo("Github client created successfully")
 
-    g['snyk_client'] = SuperSnykClient("6d8b2237-962b-4fbe-8c15-2a89a8849d1d")
+    g['snyk_client'] = SuperSnykClient(g['snyk_token'])
     typer.echo("Snyk client created successfully")
 
     # g['snyk_client'] = SuperSnykClient(snyk_t)
