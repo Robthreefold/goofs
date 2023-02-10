@@ -68,6 +68,7 @@ def main(ctx: typer.Context,
     # convert use_fresh_issues to python bool
     use_fresh_issues: bool = (use_fresh_issues.value.lower() in ["true", "True"])
 
+    github_token = github_token.replace(',', '')
     g['github_token'] = github_token
     # g['github_org'] = github_org
     # typer.echo(g['github_org'])

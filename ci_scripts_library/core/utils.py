@@ -30,8 +30,8 @@ def get_repo_full_name_from_repo_url(repo_url:str) -> str:
 
 def get_github_org_name(repo_url:str) -> str:
     try:
-        repo_full_name = get_repo_full_name_from_repo_url(repo_url)
-        github_org = repo_full_name.split("/")
+        # repo_full_name = get_repo_full_name_from_repo_url(repo_url)
+        github_org = repo_url.split("/")
         print("Here is the github org: ")
         print(github_org[0])
         return github_org[0]
