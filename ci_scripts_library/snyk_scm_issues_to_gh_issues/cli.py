@@ -69,12 +69,13 @@ def main(ctx: typer.Context,
     use_fresh_issues: bool = (use_fresh_issues.value.lower() in ["true", "True"])
 
     g['github_token'] = github_token
-    g['github_org'] = github_org
-    typer.echo(g['github_org'])
+    # g['github_org'] = github_org
+    # typer.echo(g['github_org'])
     
     snyk_token = snyk_token.replace(',', '')
     g['snyk_token'] = snyk_token
     # g['remote_repo_url'] = remote_repo_url
+    remote_repo_url = remote_repo_url.replace(',', '')
     g['remote_repo_url'] = remote_repo_url
     typer.echo(g['remote_repo_url'])
     # g['snyk_prefix']= snyk_prefix
@@ -95,7 +96,8 @@ def main(ctx: typer.Context,
     # typer.echo("Snyk client created successfully")
     
     # typer.echo("Running GitHub org method ")
-    # g['github_org'] = get_github_org_name(g['remote_repo_url'])
+    g['github_org'] = get_github_org_name(g['remote_repo_url'])
+    typer.echo(g['github_org'])
 
     
     # g['github_org'] = "rhicksiii91"
