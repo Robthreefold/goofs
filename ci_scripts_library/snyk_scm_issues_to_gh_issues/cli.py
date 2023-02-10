@@ -311,7 +311,7 @@ def snyk_license_check():
                 print(f"checking if ready: {project['id']=}, {project['name']=}, False")
 
         if ready_projects: 
-            ready_projects_with_issues = build_projects_with_issues_from_snyk_projects(ready_projects)
+            # ready_projects_with_issues = build_projects_with_issues_from_snyk_projects(ready_projects)
             typer.echo(f"Starting issues creation for {len(ready_projects)} Snyk projects...")
 
             for project in ready_projects:
