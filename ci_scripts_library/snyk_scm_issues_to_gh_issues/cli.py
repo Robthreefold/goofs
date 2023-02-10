@@ -315,8 +315,8 @@ def snyk_license_check():
             typer.echo(f"Starting issues creation for {len(ready_projects)} Snyk projects...")
 
             for project in ready_projects:
-                license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'], project['id'])
-                # license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'])
+                # license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'], project['id'])
+                license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'])
                 print(license_info)
                 # print(project)
 
@@ -363,9 +363,9 @@ def snyk_license_endpoint(token, orgId, projectId):
         "swift",
         "terraform"
       ],
-      "projects":[
-          f"{projectId}"
-      ],
+    #   "projects":[
+    #       f"{projectId}"
+    #   ],
       "severity": [
         "high",
         "medium",
