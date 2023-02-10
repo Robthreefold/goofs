@@ -363,9 +363,6 @@ def snyk_license_endpoint(token, orgId):
         "swift",
         "terraform"
       ],
-    #   "projects":[
-    #       f"{projectId}"
-    #   ],
       "severity": [
         "high",
         "medium",
