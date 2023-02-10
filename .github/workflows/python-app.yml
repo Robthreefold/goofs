@@ -1,0 +1,37 @@
+# This workflow will install Python dependencies, run tests and lint with a single version of Python
+# For more information see: https://help.github.com/actions/language-and-framework-guides/using-python-with-github-actions
+
+name: Python application
+
+on: [workflow_dispatch]
+
+permissions:
+  contents: read
+
+env:
+    REMOTE_REPO_URL: ${{ github.repository }},
+    GITHUB_ORG: ${{ github.repository.owner }}
+    SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }},
+    POETRY_VIRTUALENVS_CREATE: false
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v3
+      with:
+        python-version: "3.9"
+    - name: Install Poetry
+      run: |
+        pip install -U pip
+        pip install poetry
+        poetry install
+          
+    - name: Install dependencies
+      run: poetry install --no-interaction --no-root
+    - name: Create and delete GitHub issues based off of Snyk projects
+      run: python ci_scripts_library/snyk_scm_issues_to_gh_issues/cli.py snyk-license-check

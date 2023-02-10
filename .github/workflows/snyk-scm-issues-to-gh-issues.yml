@@ -1,0 +1,15 @@
+name: Snyk SCM Issues to Github Issues
+on: workflow_dispatch
+  # - push
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: snyk-labs/actions/scm-issues-to-gh-issues@main
+        with:
+         snyk_prefix: "cse"
+         use_fresh_issues: "true"
+        env:
+          SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+          REMOTE_REPO_URL: ${{ github.repositoryUrl }}
