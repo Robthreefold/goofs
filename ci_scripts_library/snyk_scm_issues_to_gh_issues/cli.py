@@ -316,8 +316,9 @@ def snyk_license_check():
 
             for project in ready_projects:
                 # license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'], project['id'])
-                license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'])
-                print(license_info)
+                # license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'])
+                # print(license_info)
+                print(project)
 
             # create_github_issues_for_snyk_projects_with_issues(ready_projects)
         
