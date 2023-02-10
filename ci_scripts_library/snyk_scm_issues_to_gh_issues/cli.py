@@ -311,7 +311,7 @@ def snyk_license_check():
                 print(f"checking if ready: {project['id']=}, {project['name']=}, False")
 
         if ready_projects: 
-            #ready_projects_with_issues = build_projects_with_issues_from_snyk_projects(ready_projects)
+            ready_projects_with_issues = build_projects_with_issues_from_snyk_projects(ready_projects)
             typer.echo(f"Starting issues creation for {len(ready_projects)} Snyk projects...")
 
             for project in ready_projects:
@@ -321,24 +321,24 @@ def snyk_license_check():
             # create_github_issues_for_snyk_projects_with_issues(ready_projects)
         
             
-            #g['fresh_snyk_projects_with_issues'].extend(ready_projects_with_issues) 
+            g['fresh_snyk_projects_with_issues'].extend(ready_projects_with_issues) 
             
         #     for project in ready_projects:
         #         pending_projects.remove(project.project)
         
-        # retry_counter += 1     
+        retry_counter += 1     
 
-        # if pending_projects and retry_counter < g['retry']:
+        if pending_projects and retry_counter < g['retry']:
         #     g['snyk_open_projects'] =  get_snyk_open_projects_for_repo_target(g['snyk_client'], g['snyk_org'], g['repo_full_name'])
         #     #print(f"{g['snyk_open_projects']=}")
         #     #print(f"{pending_projects=}")
         #     # update pending with the latest project data including the lastTestedDate
-        #     for pending_project in pending_projects:
-        #         pending_project['lastTestedDate'] = [x for x in g['snyk_open_projects'] if x['id'] ==  pending_project['id']][0]['lastTestedDate']
-        #     #print(f"{pending_projects=}")
+            for pending_project in pending_projects:
+                pending_project['lastTestedDate'] = [x for x in g['snyk_open_projects'] if x['id'] ==  pending_project['id']][0]['lastTestedDate']
+            #print(f"{pending_projects=}")
             
-        #     print("Sleeping...")
-        #     time.sleep(g['delay'])
+            print("Sleeping...")
+            time.sleep(g['delay'])
 
 def snyk_license_endpoint(token, orgId, projectId):
     body = {
