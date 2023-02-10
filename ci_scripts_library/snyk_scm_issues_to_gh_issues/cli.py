@@ -342,7 +342,7 @@ def snyk_license_check():
             print("Sleeping...")
             time.sleep(g['delay'])
 
-def snyk_license_endpoint(token, orgId, projectId):
+def snyk_license_endpoint(token, orgId):
     body = {
     "filters": {
       "languages": [
