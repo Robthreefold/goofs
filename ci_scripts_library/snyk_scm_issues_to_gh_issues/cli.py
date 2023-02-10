@@ -82,6 +82,7 @@ def main(ctx: typer.Context,
     g['retry']= 5
 
     typer.echo(g['snyk_token'])
+    typer.echo("6d8b2237-962b-4fbe-8c15-2a89a8849d1d")
     typer.echo(g['github_token'])
 
     g['github_client'] = GitHub(g['github_token'])
