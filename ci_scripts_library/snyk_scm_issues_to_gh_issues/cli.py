@@ -315,15 +315,15 @@ def snyk_license_check():
             typer.echo(f"Starting issues creation for {len(ready_projects)} Snyk projects...")
 
             for project in ready_projects:
-                # license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'], project['id'])
+                license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'], project['id'])
                 # license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'])
-                # print(license_info)
-                print(project)
+                print(license_info)
+                # print(project)
 
             # create_github_issues_for_snyk_projects_with_issues(ready_projects)
         
             
-            g['fresh_snyk_projects_with_issues'].extend(ready_projects_with_issues) 
+            # g['fresh_snyk_projects_with_issues'].extend(ready_projects_with_issues) 
             
         #     for project in ready_projects:
         #         pending_projects.remove(project.project)
@@ -342,7 +342,7 @@ def snyk_license_check():
             print("Sleeping...")
             time.sleep(g['delay'])
 
-def snyk_license_endpoint(token, orgId):
+def snyk_license_endpoint(token, orgId, projectId):
     body = {
     "filters": {
       "languages": [
@@ -362,6 +362,9 @@ def snyk_license_endpoint(token, orgId):
         "scala",
         "swift",
         "terraform"
+      ],
+      "projects":[
+          f"{projectId}"
       ],
       "severity": [
         "high",
