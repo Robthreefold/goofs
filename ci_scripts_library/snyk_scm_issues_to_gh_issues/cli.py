@@ -34,7 +34,7 @@ g = {}
 def main(ctx: typer.Context,
     github_token: str = typer.Option(
         None,
-        envvar="GITHUB_TOKEN",
+        envvar="GH_TOKEN",
         help="GitHub access token, if not set here will load from ENV VAR GITHUB_TOKEN"
     ),
     github_org: str = typer.Option(
@@ -72,7 +72,7 @@ def main(ctx: typer.Context,
     g['github_org'] = github_org
     typer.echo(g['github_org'])
     typer.echo(github_org)
-    g['snyk_token'] = "6d8b2237-962b-4fbe-8c15-2a89a8849d1d"
+    g['snyk_token'] = snyk_token
     # g['remote_repo_url'] = remote_repo_url
     g['remote_repo_url'] = remote_repo_url
     # g['snyk_prefix']= snyk_prefix
