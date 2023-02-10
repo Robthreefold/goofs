@@ -87,7 +87,7 @@ def main(ctx: typer.Context,
     g['github_client'] = GitHub(g['github_token'])
     typer.echo("Github client created successfully")
 
-    g['snyk_client'] = SuperSnykClient(g['snyk_token'])
+    g['snyk_client'] = SuperSnykClient("6d8b2237-962b-4fbe-8c15-2a89a8849d1d")
     typer.echo("Snyk client created successfully")
 
     # g['snyk_client'] = SuperSnykClient(snyk_t)
