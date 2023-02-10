@@ -374,7 +374,7 @@ def snyk_license_endpoint(token, orgId):
   }
     response = requests.post(f"https://api.snyk.io/api/v1/org/{orgId}/licenses",
                 data= body,
-                headers={'Content-type': 'application/json; charset=utf-8', 'Authorization': f'token {token}'},)
+                headers={'Content-type': 'application/json; charset=utf-8', 'Authorization': 'token 6d8b2237-962b-4fbe-8c15-2a89a8849d1d'},)
     
     json_response = response.json()
 
