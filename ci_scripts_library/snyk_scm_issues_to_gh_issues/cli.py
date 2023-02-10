@@ -71,10 +71,11 @@ def main(ctx: typer.Context,
     g['github_token'] = github_token
     g['github_org'] = github_org
     typer.echo(g['github_org'])
-    typer.echo(github_org)
+    
     g['snyk_token'] = snyk_token
     # g['remote_repo_url'] = remote_repo_url
     g['remote_repo_url'] = remote_repo_url
+    typer.echo(g['remote_repo_url'])
     # g['snyk_prefix']= snyk_prefix
     g['snyk_prefix']= ""
     g['delay']= 15
