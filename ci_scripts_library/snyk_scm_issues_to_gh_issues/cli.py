@@ -77,8 +77,8 @@ def main(ctx: typer.Context,
     g['delay']= 15
     g['retry']= 5
 
-    typer.echo(g['snyk_token'])
-    typer.echo(g['github_token'])
+    # typer.echo(g['snyk_token'])
+    # typer.echo(g['github_token'])
 
     g['github_client'] = GitHub(g['github_token'])
     typer.echo("Github client created successfully")
@@ -164,7 +164,7 @@ def snyk_license_check():
             typer.echo(f"Starting issues creation for {len(ready_projects)} Snyk projects...")
 
             for project in ready_projects:
-                print("Here is the projectId: " + project['project'])
+                print(project['project'])
                 license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'])
                 # license_info = snyk_license_endpoint(g['snyk_token'], g['github_org'])
                 print(license_info)
