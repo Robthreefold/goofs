@@ -164,7 +164,7 @@ def snyk_license_check():
             typer.echo(f"Starting issues creation for {len(ready_projects)} Snyk projects...")
 
             for project in ready_projects:
-                print(project['project'])
+                print(project['project']['id'])
                 license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'])
                 # license_info = snyk_license_endpoint(g['snyk_token'], g['github_org'])
                 print(license_info)
