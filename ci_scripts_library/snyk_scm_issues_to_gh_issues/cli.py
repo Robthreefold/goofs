@@ -341,6 +341,7 @@ def snyk_license_check(licenses):
                         print("Found a matching license.  Checking policy for medium and high severity level.")       
                         print(license)
                         print(policy_license)
+                        print(policy_license['severity'])
 
     return status_code
 
