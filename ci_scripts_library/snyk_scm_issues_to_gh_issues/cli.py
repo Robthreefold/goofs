@@ -239,12 +239,99 @@ def snyk_license_endpoint(token, orgId, projectId):
 def snyk_license_check(licenses):
     print("Starting license check...")
 
+    license_policy = {
+    "licensesPolicy": {
+      "AGPL-1.0": {
+        "licenseType": "AGPL-1.0",
+        "severity": "high",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "AGPL-3.0": {
+        "licenseType": "AGPL-3.0",
+        "severity": "high",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "Artistic-1.0": {
+        "licenseType": "Artistic-1.0",
+        "severity": "medium",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "Artistic-2.0": {
+        "licenseType": "Artistic-2.0",
+        "severity": "medium",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "CDDL-1.0": {
+        "licenseType": "CDDL-1.0",
+        "severity": "medium",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "CPOL-1.02": {
+        "licenseType": "CPOL-1.02",
+        "severity": "high",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "GPL-2.0": {
+        "licenseType": "GPL-2.0",
+        "severity": "high",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "GPL-3.0": {
+        "licenseType": "GPL-3.0",
+        "severity": "high",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "LGPL-2.0": {
+        "licenseType": "LGPL-2.0",
+        "severity": "medium",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "LGPL-2.1": {
+        "licenseType": "LGPL-2.1",
+        "severity": "medium",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "LGPL-3.0": {
+        "licenseType": "LGPL-3.0",
+        "severity": "medium",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "MPL-2.0": {
+        "licenseType": "MPL-2.0",
+        "severity": "medium",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "MS-RL": {
+        "licenseType": "MS-RL",
+        "severity": "medium",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "SimPL-2.0": {
+        "licenseType": "SimPL-2.0",
+        "severity": "high",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "MPL-1.1": {
+        "licenseType": "MPL-1.1",
+        "severity": "medium",
+        "instructions": "Message In the #securitychannel for approval "
+      },
+      "EPL-1.0": {
+        "licenseType": "EPL-1.0",
+        "severity": "medium",
+        "instructions": "Message In the #securitychannel for approval "
+      }
+    }
+}
+
     for license in licenses['results']:
         license_ids = license['id']
         license_id_array = license_ids.split()
         status_code = 1
 
         if len(license_id_array) > 1:
+            for license in license_id_array:
+                print(license)
             print(license['id'])
             status_code = 2
 
