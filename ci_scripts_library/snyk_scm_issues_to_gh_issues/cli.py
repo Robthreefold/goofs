@@ -240,7 +240,7 @@ def snyk_license_check(licenses):
     print("Starting license check...")
 
     for license in licenses['results']:
-        print(license)
+        print(license['id'])
         status_code = 1
 
 
