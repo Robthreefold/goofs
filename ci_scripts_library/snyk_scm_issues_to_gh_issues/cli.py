@@ -329,10 +329,13 @@ def snyk_license_check(licenses):
 
         if len(license_id_array) > 1:
             for license in license_id_array:
-                print(license)
+                # print(license)
                 for policy_license in license_policy:
-                    print("Checking license against license policy")
-                    print(policy_license)
+                    # print(policy_license)
+                    if license == policy_license:
+                        print("Found a matching license.  Checking policy for medium and high severity level.")       
+                        print(license)
+                        print(policy_license)
 
     return status_code
 
