@@ -237,8 +237,9 @@ def snyk_license_endpoint(token, orgId, projectId):
     return json_response
 
 def snyk_license_check(licenses):
+    print("Starting license check...")
 
-    for license in licenses:
+    for license in licenses['results']:
         print(license)
         status_code = 1
 
