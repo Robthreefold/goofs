@@ -240,7 +240,6 @@ def snyk_license_check(licenses):
     print("Starting license check...")
 
     license_policy = {
-    "licensesPolicy": {
         "AGPL-1.0": {
             "licenseType": "AGPL-1.0",
             "severity": "high",
@@ -322,7 +321,6 @@ def snyk_license_check(licenses):
             "instructions": "Message In the #securitychannel for approval "
         }
     }
-}
 
     for license in licenses['results']:
         license_ids = license['id']
@@ -332,7 +330,9 @@ def snyk_license_check(licenses):
         if len(license_id_array) > 1:
             for license in license_id_array:
                 print(license)
-                status_code = 2
+                for policy_license in license_policy:
+                    print("Checking license against license policy")
+                    print(policy_license)
 
     return status_code
 
