@@ -366,7 +366,7 @@ def snyk_license_check(licenses):
                             print(license)
                             print(policy_license)
                             severity = policy[f'{license}']['severity']
-                            severity_policy = {'medium', 'high'}
+                            severity_policy = ['medium', 'high']
                             if severity in severity_policy:
                                 print('Found serverity high or medium license!  See license and possible message below')
                                 license_instructions = policy[f'{license}']['instructions']
