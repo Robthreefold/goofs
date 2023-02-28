@@ -372,7 +372,7 @@ def snyk_license_check(licenses):
                                 license_instructions = policy[f'{license}']['instructions']
                                 print(license)
                                 print(license_instructions)
-                                sys.exit()
+                                sys.exit(5)
 
     return status_code
 
