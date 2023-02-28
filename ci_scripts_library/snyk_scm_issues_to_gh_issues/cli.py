@@ -240,9 +240,13 @@ def snyk_license_check(licenses):
     print("Starting license check...")
 
     for license in licenses['results']:
-        print(license['id'])
+        license_ids = license['id']
+        license_id_array = license_ids.split()
         status_code = 1
 
+        if len(license_id_array) > 1:
+            print(license['id'])
+            status_code = 2
 
     return status_code
 
