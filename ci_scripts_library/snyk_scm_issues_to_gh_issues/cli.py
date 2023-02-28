@@ -355,7 +355,7 @@ def snyk_license_check(licenses):
             for license in license_id_array:
                 print(license)
                 for policy in license_policy['license_policy']:
-                    print(policy_license)
+                    print(policy)
                     for policy_license in policy:
                         print("Here's a license policy")
                         print(policy_license)
