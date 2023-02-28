@@ -295,6 +295,11 @@ def snyk_license_check(licenses):
             "severity": "medium",
             "instructions": "Message In the #securitychannel for approval "
         },
+        "MIT": {
+            "licenseType": "MIT",
+            "severity": "medium",
+            "instructions": "Message In the #securitychannel for approval "
+        },
         "MPL-2.0": {
             "licenseType": "MPL-2.0",
             "severity": "medium",
