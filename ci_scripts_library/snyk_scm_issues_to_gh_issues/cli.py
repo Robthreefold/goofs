@@ -164,8 +164,8 @@ def snyk_license_check():
             typer.echo(f"Starting issues creation for {len(ready_projects)} Snyk projects...")
 
             for project in ready_projects:
-                print(project['project']['id'])
-                license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'])
+                project_Id = project['project']['id']
+                license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'], project_Id)
                 # license_info = snyk_license_endpoint(g['snyk_token'], g['github_org'])
                 print(license_info)
                 # print(project)
@@ -192,9 +192,9 @@ def snyk_license_check():
             print("Sleeping...")
             time.sleep(g['delay'])
 
-def snyk_license_endpoint(token, orgId):
-    # print("Here is the project ID: " + projectId)
-    body = {
+def snyk_license_endpoint(token, orgId, projectId):
+    print("Here is the project ID: " + projectId)
+    body = """{
     "filters": {
       "languages": [
         "cpp",
@@ -211,7 +211,7 @@ def snyk_license_endpoint(token, orgId):
         "python",
         "ruby",
         "scala",
-        "swift",
+        "swift"
         "terraform"
       ],
       "severity": [
@@ -223,8 +223,9 @@ def snyk_license_endpoint(token, orgId):
       "depStatus": ""
     }
   }
+  """
     response = requests.post(f"https://api.snyk.io/api/v1/org/{orgId}/licenses",
-                # data= body,
+                data= body,
                 headers={'Content-type': 'application/json; charset=utf-8', 'Authorization': f'token {token}'},)
     
     json_response = response.json()
