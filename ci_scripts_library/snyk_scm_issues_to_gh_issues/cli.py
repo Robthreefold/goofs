@@ -194,6 +194,8 @@ def snyk_license_check():
 
 def snyk_license_endpoint(token, orgId, projectId):
     print("Here is the project ID: " + projectId)
+    print("Here is the org ID: " + orgId)
+    print("Here is the token ID: " + token)
     body = """{
     "filters": {
       "languages": [
