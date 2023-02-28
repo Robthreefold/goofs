@@ -355,7 +355,7 @@ def snyk_license_check(licenses):
             for license in license_id_array:
                 print(license)
                 for policy_license in license_policy['license_policy']:
-                    print(policy_license['licenseType'])
+                    print(policy_license)
                     if license == policy_license:
                         print("Found a matching license.  Checking policy for medium and high severity level.")       
                         print(license)
