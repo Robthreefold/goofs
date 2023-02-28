@@ -165,7 +165,7 @@ def snyk_license_check():
 
             for project in ready_projects:
                 project_Id = project['project']['id']
-                license_info = snyk_license_endpoint(g['snyk_token'], g['snyk_org'], project_Id)
+                license_info = snyk_license_endpoint(g['snyk_token'], g['github_org'], project_Id)
                 # license_info = snyk_license_endpoint(g['snyk_token'], g['github_org'])
                 print(license_info)
                 # print(project)
