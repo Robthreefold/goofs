@@ -240,91 +240,110 @@ def snyk_license_check(licenses):
     print("Starting license check...")
 
     license_policy = {
-        "AGPL-1.0": {
+        "license_policy": {
+        "AGPL-1.0":[ {
             "licenseType": "AGPL-1.0",
             "severity": "high",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "AGPL-3.0": {
+        ],
+        "AGPL-3.0":[ {
             "licenseType": "AGPL-3.0",
             "severity": "high",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "Artistic-1.0": {
+        ],
+        "Artistic-1.0":[ {
             "licenseType": "Artistic-1.0",
             "severity": "medium",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "Artistic-2.0": {
+    ],
+        "Artistic-2.0":[ {
             "licenseType": "Artistic-2.0",
             "severity": "medium",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "CDDL-1.0": {
+    ],
+        "CDDL-1.0":[ {
             "licenseType": "CDDL-1.0",
             "severity": "medium",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "CPOL-1.02": {
+    ],
+        "CPOL-1.02":[ {
             "licenseType": "CPOL-1.02",
             "severity": "high",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "GPL-2.0": {
+    ],
+        "GPL-2.0":[ {
             "licenseType": "GPL-2.0",
             "severity": "high",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "GPL-3.0": {
+    ],
+        "GPL-3.0":[ {
             "licenseType": "GPL-3.0",
             "severity": "high",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "LGPL-2.0": {
+    ],
+        "LGPL-2.0":[ {
             "licenseType": "LGPL-2.0",
             "severity": "medium",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "LGPL-2.1": {
+    ],
+        "LGPL-2.1":[ {
             "licenseType": "LGPL-2.1",
             "severity": "medium",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "LGPL-3.0": {
+    ],
+        "LGPL-3.0":[ {
             "licenseType": "LGPL-3.0",
             "severity": "medium",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "MIT": {
+    ],
+        "MIT":[ {
             "licenseType": "MIT",
             "severity": "medium",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "MPL-2.0": {
+    ],
+        "MPL-2.0":[ {
             "licenseType": "MPL-2.0",
             "severity": "medium",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "MS-RL": {
+    ],
+        "MS-RL":[ {
             "licenseType": "MS-RL",
             "severity": "medium",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "SimPL-2.0": {
+    ],
+        "SimPL-2.0":[ {
             "licenseType": "SimPL-2.0",
             "severity": "high",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "MPL-1.1": {
+    ],
+        "MPL-1.1":[ {
             "licenseType": "MPL-1.1",
             "severity": "medium",
             "instructions": "Message In the #securitychannel for approval "
         },
-        "EPL-1.0": {
+    ],
+        "EPL-1.0":[ {
             "licenseType": "EPL-1.0",
             "severity": "medium",
             "instructions": "Message In the #securitychannel for approval "
         }
+    ],
+    }
     }
 
     for license in licenses['results']:
@@ -341,8 +360,8 @@ def snyk_license_check(licenses):
                         print("Found a matching license.  Checking policy for medium and high severity level.")       
                         print(license)
                         print(policy_license)
-                        for severity in policy_license:
-                            print(severity)
+                        severity = license_policy[f'{policy_license}']['severity']
+                        print(severity)
 
     return status_code
 
