@@ -34,4 +34,4 @@ jobs:
     - name: Install dependencies
       run: poetry install --no-interaction --no-root
     - name: Find license issues and run check
-      run: python ci_scripts_library/snyk_scm_issues_to_gh_issues/cli.py snyk-license-check
+      run: python ci_scripts_library/snyk_scm_license_check/cli.py snyk-license-check

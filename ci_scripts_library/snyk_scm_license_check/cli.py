@@ -376,9 +376,6 @@ def snyk_license_check(licenses):
 
     return status_code
 
-def closed_github_issues_for_fixed_snyk_issues(snyk_issues: List):
-    pass
-
 def build_projects_with_issues_from_snyk_projects(snyk_projects: List):
     projects_with_issues: List[ProjectIssues] = []
 
@@ -392,83 +389,6 @@ def build_projects_with_issues_from_snyk_projects(snyk_projects: List):
         )
     return projects_with_issues
 
-def get_project_from_gh_issue(gh_issue: IssueAndMetadata):
-    project_name_from_gh_issue = '/'.join(gh_issue.issue_metadata[METADATA_KEY_ID].split('/')[:-1])
-    #print(f"{project_name_from_gh_issue=}")
-    for project in g['snyk_open_projects']:
-        project_name_from_snyk = project['name'].split(':')[1]
-        #print(f"{project_name_from_snyk=}")
-        if project_name_from_gh_issue == project_name_from_snyk:
-            return project
-    
-    return None
-
-def create_github_issues_for_snyk_projects_with_issues(snyk_projects_with_issues: List):
-    for ready_project in snyk_projects_with_issues:
-        #print(f"{ready_project=}")
-        #if wait_for_snyk_test(project['lastTestedDate'], g['retry'], g['delay']):
-        #issues = get_snyk_project_issues(g['snyk_client'], g['snyk_org'], ready_project.project['id'])
-        manifest_name = ready_project.project['name'].split(":")[1]
-        #print(f"{issues=}")
-        for issue in ready_project.issues['issues']:
-            #print(f"f{issue=}")
-            snyk_unique_issue_id = issue['id']
-            snyk_title = issue['issueData']['title']
-            snyk_severity = issue['issueData']['severity']
-            snyk_description = issue['issueData']['description']
-            snyk_package_name = issue['pkgName']
-            snyk_package_version = issue['pkgVersions']
-
-            try:
-                snyk_cve = issue['issueData']['identifiers']['CVE'][0]
-            except:
-                snyk_cve = "No CVE"
-                #typer.echo("Issue does not have a CVE")
-
-            try:
-                snyk_cwe = "No CWE"
-                snyk_cwe = issue['issueData']['identifiers']['CWE'][0]
-
-            except:
-                pass
-                #typer.echo("Issue does not have a CWE")                
-
-            snyk_issue_id_for_gh = f"{manifest_name}/{snyk_unique_issue_id}"
-            print(f" - {snyk_issue_id_for_gh=}, ", end ="")
-
-            title = f"{snyk_cve} - {snyk_severity} detected in {snyk_package_name}{snyk_package_version}"
-           
-            body = (
-                f"Package Name: {snyk_package_name} <br/>"
-                f"Package Version: {snyk_package_version} <br/>"
-                f"Package Manager: {ready_project.project['type']} <br/>"
-                f"Target File: {manifest_name} <br/>"
-                f"Severity Level: {snyk_severity} <br/> "
-                f"Snyk ID: {snyk_unique_issue_id} <br/> "
-                f"Snyk CVE: {snyk_cve} <br/> "
-                f"Snyk CWE: {snyk_cwe} <br/> "
-                f"Link to issue in Snyk: {ready_project.project['browseUrl']} <br/> <br/>"
-                f"Snyk Description: {snyk_description} <br/> "
-            )
-
-            gh_issue_exists = snyk_issue_id_for_gh in \
-                [x.issue_metadata['id'] for x in g['repo_open_issues'] if x.issue_metadata is not None]
-
-            if gh_issue_exists:
-                print(f"already exists (skip)")
-                pass
-            else:
-                print(f"does not exist (create)")
-                g['github_client'].create_issue_with_metadata(
-                repo_full_name=g['repo_full_name'],
-                metadata_prefix=METADATA_PREFIX,
-                metadata_key=METADATA_KEY_ID,
-                metadata_value=snyk_issue_id_for_gh,
-                title=title,
-                body=body,
-                #labels=labels
-                )
-                time.sleep(3)
 
 if __name__ == "__main__":
     app()
