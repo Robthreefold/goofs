@@ -37,8 +37,6 @@ exports.index = function (req, res, next) {
 exports.admin = function (req, res, next) {
   console.log(req.body);
   console.log('testing line 39 movement');
-  console.log('testing line 39 movement');
-  console.log('testing line 39 movement');
   User.find({ username: req.body.username, password: req.body.password }, function (err, users) {
     if (users.length > 0) {
       return res.render('admin', {
