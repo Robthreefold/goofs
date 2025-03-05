@@ -1,0 +1,1226 @@
+
+Testing snyk/broker:jira...
+
+✗ Low severity vulnerability found in tar
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-TAR-1126791
+  Introduced through: tar@1.30+dfsg-7ubuntu0.20.04.1
+  From: tar@1.30+dfsg-7ubuntu0.20.04.1
+  Fixed in: 1.30+dfsg-7ubuntu0.20.04.2
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: CVE-2023-26604
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-SYSTEMD-3339226
+  Introduced through: systemd/libsystemd0@245.4-4ubuntu3.13, apt@2.0.6, procps/libprocps8@2:3.3.16-1ubuntu2.3, util-linux/bsdutils@1:2.34-0.1ubuntu9.1, util-linux/mount@2.34-0.1ubuntu9.1, systemd/libudev1@245.4-4ubuntu3.13
+  From: systemd/libsystemd0@245.4-4ubuntu3.13
+  From: apt@2.0.6 > systemd/libsystemd0@245.4-4ubuntu3.13
+  From: procps/libprocps8@2:3.3.16-1ubuntu2.3 > systemd/libsystemd0@245.4-4ubuntu3.13
+  and 6 more...
+
+✗ Low severity vulnerability found in systemd/libsystemd0
+  Description: CVE-2023-7008
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-SYSTEMD-6137854
+  Introduced through: systemd/libsystemd0@245.4-4ubuntu3.13, apt@2.0.6, procps/libprocps8@2:3.3.16-1ubuntu2.3, util-linux/bsdutils@1:2.34-0.1ubuntu9.1, util-linux/mount@2.34-0.1ubuntu9.1, systemd/libudev1@245.4-4ubuntu3.13
+  From: systemd/libsystemd0@245.4-4ubuntu3.13
+  From: apt@2.0.6 > systemd/libsystemd0@245.4-4ubuntu3.13
+  From: procps/libprocps8@2:3.3.16-1ubuntu2.3 > systemd/libsystemd0@245.4-4ubuntu3.13
+  and 6 more...
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Arbitrary Code Injection
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-SHADOW-5425687
+  Introduced through: shadow/passwd@1:4.8.1-1ubuntu5.20.04.1, adduser@3.118ubuntu2, shadow/login@1:4.8.1-1ubuntu5.20.04.1, util-linux/mount@2.34-0.1ubuntu9.1
+  From: shadow/passwd@1:4.8.1-1ubuntu5.20.04.1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1
+  From: shadow/login@1:4.8.1-1ubuntu5.20.04.1
+  and 1 more...
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Time-of-check Time-of-use (TOCTOU)
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-SHADOW-577863
+  Introduced through: shadow/passwd@1:4.8.1-1ubuntu5.20.04.1, adduser@3.118ubuntu2, shadow/login@1:4.8.1-1ubuntu5.20.04.1, util-linux/mount@2.34-0.1ubuntu9.1
+  From: shadow/passwd@1:4.8.1-1ubuntu5.20.04.1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1
+  From: shadow/login@1:4.8.1-1ubuntu5.20.04.1
+  and 1 more...
+
+✗ Low severity vulnerability found in shadow/passwd
+  Description: Improper Authentication
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-SHADOW-5879186
+  Introduced through: shadow/passwd@1:4.8.1-1ubuntu5.20.04.1, adduser@3.118ubuntu2, shadow/login@1:4.8.1-1ubuntu5.20.04.1, util-linux/mount@2.34-0.1ubuntu9.1
+  From: shadow/passwd@1:4.8.1-1ubuntu5.20.04.1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1
+  From: shadow/login@1:4.8.1-1ubuntu5.20.04.1
+  and 1 more...
+  Fixed in: 1:4.8.1-1ubuntu5.20.04.5
+
+✗ Low severity vulnerability found in procps/libprocps8
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PROCPS-5816664
+  Introduced through: procps/libprocps8@2:3.3.16-1ubuntu2.3, procps@2:3.3.16-1ubuntu2.3
+  From: procps/libprocps8@2:3.3.16-1ubuntu2.3
+  From: procps@2:3.3.16-1ubuntu2.3 > procps/libprocps8@2:3.3.16-1ubuntu2.3
+  From: procps@2:3.3.16-1ubuntu2.3
+  Fixed in: 2:3.3.16-1ubuntu2.4
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PCRE3-580031
+  Introduced through: pcre3/libpcre3@2:8.39-12build1, grep@3.4-1
+  From: pcre3/libpcre3@2:8.39-12build1
+  From: grep@3.4-1 > pcre3/libpcre3@2:8.39-12build1
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PCRE3-581164
+  Introduced through: pcre3/libpcre3@2:8.39-12build1, grep@3.4-1
+  From: pcre3/libpcre3@2:8.39-12build1
+  From: grep@3.4-1 > pcre3/libpcre3@2:8.39-12build1
+  Fixed in: 2:8.39-12ubuntu0.1
+
+✗ Low severity vulnerability found in pcre3/libpcre3
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PCRE3-583594
+  Introduced through: pcre3/libpcre3@2:8.39-12build1, grep@3.4-1
+  From: pcre3/libpcre3@2:8.39-12build1
+  From: grep@3.4-1 > pcre3/libpcre3@2:8.39-12build1
+  Fixed in: 2:8.39-12ubuntu0.1
+
+✗ Low severity vulnerability found in pcre2/libpcre2-8-0
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PCRE2-2810784
+  Introduced through: pcre2/libpcre2-8-0@10.34-7
+  From: pcre2/libpcre2-8-0@10.34-7
+  Fixed in: 10.34-7ubuntu0.1
+
+✗ Low severity vulnerability found in pcre2/libpcre2-8-0
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PCRE2-2810795
+  Introduced through: pcre2/libpcre2-8-0@10.34-7
+  From: pcre2/libpcre2-8-0@10.34-7
+  Fixed in: 10.34-7ubuntu0.1
+
+✗ Low severity vulnerability found in pcre2/libpcre2-8-0
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PCRE2-5787132
+  Introduced through: pcre2/libpcre2-8-0@10.34-7
+  From: pcre2/libpcre2-8-0@10.34-7
+
+✗ Low severity vulnerability found in pam/libpam0g
+  Description: Improper Authentication
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PAM-3033891
+  Introduced through: pam/libpam0g@1.3.1-5ubuntu4.2, shadow/login@1:4.8.1-1ubuntu5.20.04.1, util-linux/mount@2.34-0.1ubuntu9.1, adduser@3.118ubuntu2, pam/libpam-modules-bin@1.3.1-5ubuntu4.2, pam/libpam-modules@1.3.1-5ubuntu4.2, pam/libpam-runtime@1.3.1-5ubuntu4.2
+  From: pam/libpam0g@1.3.1-5ubuntu4.2
+  From: shadow/login@1:4.8.1-1ubuntu5.20.04.1 > pam/libpam0g@1.3.1-5ubuntu4.2
+  From: util-linux/mount@2.34-0.1ubuntu9.1 > util-linux@2.34-0.1ubuntu9.1 > pam/libpam0g@1.3.1-5ubuntu4.2
+  and 11 more...
+  Fixed in: 1.3.1-5ubuntu4.4
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Improper Certificate Validation
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-3368843
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.18
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Improper Certificate Validation
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-5296048
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.18
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Improper Certificate Validation
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-5296078
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.18
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Inefficient Regular Expression Complexity
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-5786273
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.20
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Excessive Iteration
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-5811821
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.20
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: Improper Check for Unusual or Exceptional Conditions
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-6050175
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.21
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: CVE-2024-0727
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-6191310
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.21
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: CVE-2024-2511
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-6592107
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.23
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: CVE-2024-4741
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-7151336
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.23
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: CVE-2024-5535
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-7411325
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.23
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: CVE-2024-9143
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-8231182
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.24
+
+✗ Low severity vulnerability found in openssl/libssl1.1
+  Description: CVE-2024-13176
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-8648332
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.24
+
+✗ Low severity vulnerability found in ncurses/libtinfo6
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-NCURSES-1656318
+  Introduced through: ncurses/libtinfo6@6.2-0ubuntu2, bash@5.0-6ubuntu1.1, ncurses/libncurses6@6.2-0ubuntu2, ncurses/ncurses-bin@6.2-0ubuntu2, procps@2:3.3.16-1ubuntu2.3, util-linux/fdisk@2.34-0.1ubuntu9.1, util-linux/mount@2.34-0.1ubuntu9.1, ncurses/libncursesw6@6.2-0ubuntu2, ncurses/ncurses-base@6.2-0ubuntu2
+  From: ncurses/libtinfo6@6.2-0ubuntu2
+  From: bash@5.0-6ubuntu1.1 > ncurses/libtinfo6@6.2-0ubuntu2
+  From: ncurses/libncurses6@6.2-0ubuntu2 > ncurses/libtinfo6@6.2-0ubuntu2
+  and 12 more...
+  Fixed in: 6.2-0ubuntu2.1
+
+✗ Low severity vulnerability found in ncurses/libtinfo6
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-NCURSES-2770341
+  Introduced through: ncurses/libtinfo6@6.2-0ubuntu2, bash@5.0-6ubuntu1.1, ncurses/libncurses6@6.2-0ubuntu2, ncurses/ncurses-bin@6.2-0ubuntu2, procps@2:3.3.16-1ubuntu2.3, util-linux/fdisk@2.34-0.1ubuntu9.1, util-linux/mount@2.34-0.1ubuntu9.1, ncurses/libncursesw6@6.2-0ubuntu2, ncurses/ncurses-base@6.2-0ubuntu2
+  From: ncurses/libtinfo6@6.2-0ubuntu2
+  From: bash@5.0-6ubuntu1.1 > ncurses/libtinfo6@6.2-0ubuntu2
+  From: ncurses/libncurses6@6.2-0ubuntu2 > ncurses/libtinfo6@6.2-0ubuntu2
+  and 12 more...
+  Fixed in: 6.2-0ubuntu2.1
+
+✗ Low severity vulnerability found in ncurses/libtinfo6
+  Description: CVE-2023-50495
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-NCURSES-6123866
+  Introduced through: ncurses/libtinfo6@6.2-0ubuntu2, bash@5.0-6ubuntu1.1, ncurses/libncurses6@6.2-0ubuntu2, ncurses/ncurses-bin@6.2-0ubuntu2, procps@2:3.3.16-1ubuntu2.3, util-linux/fdisk@2.34-0.1ubuntu9.1, util-linux/mount@2.34-0.1ubuntu9.1, ncurses/libncursesw6@6.2-0ubuntu2, ncurses/ncurses-base@6.2-0ubuntu2
+  From: ncurses/libtinfo6@6.2-0ubuntu2
+  From: bash@5.0-6ubuntu1.1 > ncurses/libtinfo6@6.2-0ubuntu2
+  From: ncurses/libncurses6@6.2-0ubuntu2 > ncurses/libtinfo6@6.2-0ubuntu2
+  and 12 more...
+
+✗ Low severity vulnerability found in ncurses/libtinfo6
+  Description: CVE-2023-45918
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-NCURSES-6253014
+  Introduced through: ncurses/libtinfo6@6.2-0ubuntu2, bash@5.0-6ubuntu1.1, ncurses/libncurses6@6.2-0ubuntu2, ncurses/ncurses-bin@6.2-0ubuntu2, procps@2:3.3.16-1ubuntu2.3, util-linux/fdisk@2.34-0.1ubuntu9.1, util-linux/mount@2.34-0.1ubuntu9.1, ncurses/libncursesw6@6.2-0ubuntu2, ncurses/ncurses-base@6.2-0ubuntu2
+  From: ncurses/libtinfo6@6.2-0ubuntu2
+  From: bash@5.0-6ubuntu1.1 > ncurses/libtinfo6@6.2-0ubuntu2
+  From: ncurses/libncurses6@6.2-0ubuntu2 > ncurses/libtinfo6@6.2-0ubuntu2
+  and 12 more...
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-LIBSEPOL-1315883
+  Introduced through: libsepol/libsepol1@3.0-1, adduser@3.118ubuntu2
+  From: libsepol/libsepol1@3.0-1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1 > libsemanage/libsemanage1@3.0-1build2 > libsepol/libsepol1@3.0-1
+  Fixed in: 3.0-1ubuntu0.1
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-LIBSEPOL-1315888
+  Introduced through: libsepol/libsepol1@3.0-1, adduser@3.118ubuntu2
+  From: libsepol/libsepol1@3.0-1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1 > libsemanage/libsemanage1@3.0-1build2 > libsepol/libsepol1@3.0-1
+  Fixed in: 3.0-1ubuntu0.1
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-LIBSEPOL-1315894
+  Introduced through: libsepol/libsepol1@3.0-1, adduser@3.118ubuntu2
+  From: libsepol/libsepol1@3.0-1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1 > libsemanage/libsemanage1@3.0-1build2 > libsepol/libsepol1@3.0-1
+  Fixed in: 3.0-1ubuntu0.1
+
+✗ Low severity vulnerability found in libsepol/libsepol1
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-LIBSEPOL-1315896
+  Introduced through: libsepol/libsepol1@3.0-1, adduser@3.118ubuntu2
+  From: libsepol/libsepol1@3.0-1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1 > libsemanage/libsemanage1@3.0-1build2 > libsepol/libsepol1@3.0-1
+  Fixed in: 3.0-1ubuntu0.1
+
+✗ Low severity vulnerability found in libgcrypt20
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-LIBGCRYPT20-6411449
+  Introduced through: libgcrypt20@1.8.5-5ubuntu1.1, gnupg2/dirmngr@2.2.19-3ubuntu2.1, apt@2.0.6
+  From: libgcrypt20@1.8.5-5ubuntu1.1
+  From: gnupg2/dirmngr@2.2.19-3ubuntu2.1 > libgcrypt20@1.8.5-5ubuntu1.1
+  From: apt@2.0.6 > apt/libapt-pkg6.0@2.0.6 > libgcrypt20@1.8.5-5ubuntu1.1
+  and 2 more...
+
+✗ Low severity vulnerability found in gnutls28/libgnutls30
+  Description: NULL Pointer Dereference
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GNUTLS28-2412672
+  Introduced through: gnutls28/libgnutls30@3.6.13-2ubuntu1.6, apt@2.0.6, gnupg2/dirmngr@2.2.19-3ubuntu2.1
+  From: gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: gnupg2/dirmngr@2.2.19-3ubuntu2.1 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  Fixed in: 3.6.13-2ubuntu1.7
+
+✗ Low severity vulnerability found in gnupg2/gpgv
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GNUPG2-3035407
+  Introduced through: gnupg2/gpgv@2.2.19-3ubuntu2.1, apt@2.0.6, gnupg2/dirmngr@2.2.19-3ubuntu2.1
+  From: gnupg2/gpgv@2.2.19-3ubuntu2.1
+  From: apt@2.0.6 > gnupg2/gpgv@2.2.19-3ubuntu2.1
+  From: gnupg2/dirmngr@2.2.19-3ubuntu2.1
+
+✗ Low severity vulnerability found in gmp/libgmp10
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GMP-1921284
+  Introduced through: gmp/libgmp10@2:6.2.0+dfsg-4, apt@2.0.6
+  From: gmp/libgmp10@2:6.2.0+dfsg-4
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6 > gmp/libgmp10@2:6.2.0+dfsg-4
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6 > nettle/libhogweed5@3.5.1+really3.5.1-2ubuntu0.2 > gmp/libgmp10@2:6.2.0+dfsg-4
+  Fixed in: 2:6.2.0+dfsg-4ubuntu0.1
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Reachable Assertion
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1048386
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.7
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1055780
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.7
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1055790
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.7
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Reachable Assertion
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1122573
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.7
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Double Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1123084
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.7
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1297554
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Integer Overflow or Wraparound
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-1315365
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.7
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Buffer Overflow
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-2356799
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.7
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Buffer Overflow
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-2356852
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.7
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-2415100
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-576349
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.7
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Integer Underflow
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-576428
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.7
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-5901432
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.14
+
+✗ Low severity vulnerability found in glibc/libc-bin
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-5901476
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.14
+
+✗ Low severity vulnerability found in coreutils
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-COREUTILS-583876
+  Introduced through: coreutils@8.30-3ubuntu2
+  From: coreutils@8.30-3ubuntu2
+
+✗ Low severity vulnerability found in bash
+  Description: Improper Check for Dropped Privileges
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-BASH-581100
+  Introduced through: bash@5.0-6ubuntu1.1
+  From: bash@5.0-6ubuntu1.1
+  Fixed in: 5.0-6ubuntu1.2
+
+✗ Medium severity vulnerability found in zlib/zlib1g
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-ZLIB-2433592
+  Introduced through: zlib/zlib1g@1:1.2.11.dfsg-2ubuntu1.2
+  From: zlib/zlib1g@1:1.2.11.dfsg-2ubuntu1.2
+  Fixed in: 1:1.2.11.dfsg-2ubuntu1.3
+
+✗ Medium severity vulnerability found in zlib/zlib1g
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-ZLIB-2975631
+  Introduced through: zlib/zlib1g@1:1.2.11.dfsg-2ubuntu1.2
+  From: zlib/zlib1g@1:1.2.11.dfsg-2ubuntu1.2
+  Fixed in: 1:1.2.11.dfsg-2ubuntu1.5
+
+✗ Medium severity vulnerability found in xz-utils/liblzma5
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-XZUTILS-2442551
+  Introduced through: xz-utils/liblzma5@5.2.4-1ubuntu1
+  From: xz-utils/liblzma5@5.2.4-1ubuntu1
+  Fixed in: 5.2.4-1ubuntu1.1
+
+✗ Medium severity vulnerability found in util-linux/libblkid1
+  Description: Files or Directories Accessible to External Parties
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-UTILLINUX-2387723
+  Introduced through: util-linux/libblkid1@2.34-0.1ubuntu9.1, e2fsprogs@1.45.5-2ubuntu1, util-linux/mount@2.34-0.1ubuntu9.1, util-linux/fdisk@2.34-0.1ubuntu9.1, util-linux/libuuid1@2.34-0.1ubuntu9.1, util-linux@2.34-0.1ubuntu9.1, sysvinit/sysvinit-utils@2.96-2.1ubuntu1, util-linux/bsdutils@1:2.34-0.1ubuntu9.1, util-linux/libfdisk1@2.34-0.1ubuntu9.1, util-linux/libmount1@2.34-0.1ubuntu9.1, util-linux/libsmartcols1@2.34-0.1ubuntu9.1
+  From: util-linux/libblkid1@2.34-0.1ubuntu9.1
+  From: e2fsprogs@1.45.5-2ubuntu1 > util-linux/libblkid1@2.34-0.1ubuntu9.1
+  From: util-linux/mount@2.34-0.1ubuntu9.1 > util-linux/libblkid1@2.34-0.1ubuntu9.1
+  and 23 more...
+  Fixed in: 2.34-0.1ubuntu9.3
+
+✗ Medium severity vulnerability found in util-linux/libblkid1
+  Description: Files or Directories Accessible to External Parties
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-UTILLINUX-2387728
+  Introduced through: util-linux/libblkid1@2.34-0.1ubuntu9.1, e2fsprogs@1.45.5-2ubuntu1, util-linux/mount@2.34-0.1ubuntu9.1, util-linux/fdisk@2.34-0.1ubuntu9.1, util-linux/libuuid1@2.34-0.1ubuntu9.1, util-linux@2.34-0.1ubuntu9.1, sysvinit/sysvinit-utils@2.96-2.1ubuntu1, util-linux/bsdutils@1:2.34-0.1ubuntu9.1, util-linux/libfdisk1@2.34-0.1ubuntu9.1, util-linux/libmount1@2.34-0.1ubuntu9.1, util-linux/libsmartcols1@2.34-0.1ubuntu9.1
+  From: util-linux/libblkid1@2.34-0.1ubuntu9.1
+  From: e2fsprogs@1.45.5-2ubuntu1 > util-linux/libblkid1@2.34-0.1ubuntu9.1
+  From: util-linux/mount@2.34-0.1ubuntu9.1 > util-linux/libblkid1@2.34-0.1ubuntu9.1
+  and 23 more...
+  Fixed in: 2.34-0.1ubuntu9.3
+
+✗ Medium severity vulnerability found in util-linux/libblkid1
+  Description: CVE-2024-28085
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-UTILLINUX-6508371
+  Introduced through: util-linux/libblkid1@2.34-0.1ubuntu9.1, e2fsprogs@1.45.5-2ubuntu1, util-linux/mount@2.34-0.1ubuntu9.1, util-linux/fdisk@2.34-0.1ubuntu9.1, util-linux/libuuid1@2.34-0.1ubuntu9.1, util-linux@2.34-0.1ubuntu9.1, sysvinit/sysvinit-utils@2.96-2.1ubuntu1, util-linux/bsdutils@1:2.34-0.1ubuntu9.1, util-linux/libfdisk1@2.34-0.1ubuntu9.1, util-linux/libmount1@2.34-0.1ubuntu9.1, util-linux/libsmartcols1@2.34-0.1ubuntu9.1
+  From: util-linux/libblkid1@2.34-0.1ubuntu9.1
+  From: e2fsprogs@1.45.5-2ubuntu1 > util-linux/libblkid1@2.34-0.1ubuntu9.1
+  From: util-linux/mount@2.34-0.1ubuntu9.1 > util-linux/libblkid1@2.34-0.1ubuntu9.1
+  and 23 more...
+  Fixed in: 2.34-0.1ubuntu9.5
+
+✗ Medium severity vulnerability found in tar
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-TAR-3261137
+  Introduced through: tar@1.30+dfsg-7ubuntu0.20.04.1
+  From: tar@1.30+dfsg-7ubuntu0.20.04.1
+  Fixed in: 1.30+dfsg-7ubuntu0.20.04.3
+
+✗ Medium severity vulnerability found in tar
+  Description: CVE-2023-39804
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-TAR-6096088
+  Introduced through: tar@1.30+dfsg-7ubuntu0.20.04.1
+  From: tar@1.30+dfsg-7ubuntu0.20.04.1
+  Fixed in: 1.30+dfsg-7ubuntu0.20.04.4
+
+✗ Medium severity vulnerability found in systemd/libsystemd0
+  Description: Uncontrolled Recursion
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-SYSTEMD-2332040
+  Introduced through: systemd/libsystemd0@245.4-4ubuntu3.13, apt@2.0.6, procps/libprocps8@2:3.3.16-1ubuntu2.3, util-linux/bsdutils@1:2.34-0.1ubuntu9.1, util-linux/mount@2.34-0.1ubuntu9.1, systemd/libudev1@245.4-4ubuntu3.13
+  From: systemd/libsystemd0@245.4-4ubuntu3.13
+  From: apt@2.0.6 > systemd/libsystemd0@245.4-4ubuntu3.13
+  From: procps/libprocps8@2:3.3.16-1ubuntu2.3 > systemd/libsystemd0@245.4-4ubuntu3.13
+  and 6 more...
+  Fixed in: 245.4-4ubuntu3.15
+
+✗ Medium severity vulnerability found in systemd/libsystemd0
+  Description: Off-by-one Error
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-SYSTEMD-3098845
+  Introduced through: systemd/libsystemd0@245.4-4ubuntu3.13, apt@2.0.6, procps/libprocps8@2:3.3.16-1ubuntu2.3, util-linux/bsdutils@1:2.34-0.1ubuntu9.1, util-linux/mount@2.34-0.1ubuntu9.1, systemd/libudev1@245.4-4ubuntu3.13
+  From: systemd/libsystemd0@245.4-4ubuntu3.13
+  From: apt@2.0.6 > systemd/libsystemd0@245.4-4ubuntu3.13
+  From: procps/libprocps8@2:3.3.16-1ubuntu2.3 > systemd/libsystemd0@245.4-4ubuntu3.13
+  and 6 more...
+  Fixed in: 245.4-4ubuntu3.20
+
+✗ Medium severity vulnerability found in systemd/libsystemd0
+  Description: CVE-2022-4415
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-SYSTEMD-3180310
+  Introduced through: systemd/libsystemd0@245.4-4ubuntu3.13, apt@2.0.6, procps/libprocps8@2:3.3.16-1ubuntu2.3, util-linux/bsdutils@1:2.34-0.1ubuntu9.1, util-linux/mount@2.34-0.1ubuntu9.1, systemd/libudev1@245.4-4ubuntu3.13
+  From: systemd/libsystemd0@245.4-4ubuntu3.13
+  From: apt@2.0.6 > systemd/libsystemd0@245.4-4ubuntu3.13
+  From: procps/libprocps8@2:3.3.16-1ubuntu2.3 > systemd/libsystemd0@245.4-4ubuntu3.13
+  and 6 more...
+  Fixed in: 245.4-4ubuntu3.20
+
+✗ Medium severity vulnerability found in shadow/passwd
+  Description: CVE-2024-56433
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-SHADOW-8600507
+  Introduced through: shadow/passwd@1:4.8.1-1ubuntu5.20.04.1, adduser@3.118ubuntu2, shadow/login@1:4.8.1-1ubuntu5.20.04.1, util-linux/mount@2.34-0.1ubuntu9.1
+  From: shadow/passwd@1:4.8.1-1ubuntu5.20.04.1
+  From: adduser@3.118ubuntu2 > shadow/passwd@1:4.8.1-1ubuntu5.20.04.1
+  From: shadow/login@1:4.8.1-1ubuntu5.20.04.1
+  and 1 more...
+
+✗ Medium severity vulnerability found in perl/perl-base
+  Description: Improper Verification of Cryptographic Signature
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PERL-1930907
+  Introduced through: perl/perl-base@5.30.0-9ubuntu0.2
+  From: perl/perl-base@5.30.0-9ubuntu0.2
+  Fixed in: 5.30.0-9ubuntu0.3
+
+✗ Medium severity vulnerability found in perl/perl-base
+  Description: Improper Certificate Validation
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PERL-5499876
+  Introduced through: perl/perl-base@5.30.0-9ubuntu0.2
+  From: perl/perl-base@5.30.0-9ubuntu0.2
+  Fixed in: 5.30.0-9ubuntu0.4
+
+✗ Medium severity vulnerability found in perl/perl-base
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PERL-6085359
+  Introduced through: perl/perl-base@5.30.0-9ubuntu0.2
+  From: perl/perl-base@5.30.0-9ubuntu0.2
+  Fixed in: 5.30.0-9ubuntu0.5
+
+✗ Medium severity vulnerability found in pam/libpam0g
+  Description: CVE-2024-22365
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PAM-6170207
+  Introduced through: pam/libpam0g@1.3.1-5ubuntu4.2, shadow/login@1:4.8.1-1ubuntu5.20.04.1, util-linux/mount@2.34-0.1ubuntu9.1, adduser@3.118ubuntu2, pam/libpam-modules-bin@1.3.1-5ubuntu4.2, pam/libpam-modules@1.3.1-5ubuntu4.2, pam/libpam-runtime@1.3.1-5ubuntu4.2
+  From: pam/libpam0g@1.3.1-5ubuntu4.2
+  From: shadow/login@1:4.8.1-1ubuntu5.20.04.1 > pam/libpam0g@1.3.1-5ubuntu4.2
+  From: util-linux/mount@2.34-0.1ubuntu9.1 > util-linux@2.34-0.1ubuntu9.1 > pam/libpam0g@1.3.1-5ubuntu4.2
+  and 11 more...
+  Fixed in: 1.3.1-5ubuntu4.7
+
+✗ Medium severity vulnerability found in pam/libpam0g
+  Description: Insecure Storage of Sensitive Information
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-PAM-8303370
+  Introduced through: pam/libpam0g@1.3.1-5ubuntu4.2, shadow/login@1:4.8.1-1ubuntu5.20.04.1, util-linux/mount@2.34-0.1ubuntu9.1, adduser@3.118ubuntu2, pam/libpam-modules-bin@1.3.1-5ubuntu4.2, pam/libpam-modules@1.3.1-5ubuntu4.2, pam/libpam-runtime@1.3.1-5ubuntu4.2
+  From: pam/libpam0g@1.3.1-5ubuntu4.2
+  From: shadow/login@1:4.8.1-1ubuntu5.20.04.1 > pam/libpam0g@1.3.1-5ubuntu4.2
+  From: util-linux/mount@2.34-0.1ubuntu9.1 > util-linux@2.34-0.1ubuntu9.1 > pam/libpam0g@1.3.1-5ubuntu4.2
+  and 11 more...
+
+✗ Medium severity vulnerability found in openssl/libssl1.1
+  Description: OS Command Injection
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-2807635
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.13
+
+✗ Medium severity vulnerability found in openssl/libssl1.1
+  Description: OS Command Injection
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-2933120
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.15
+
+✗ Medium severity vulnerability found in openssl/libssl1.1
+  Description: Use of a Broken or Risky Cryptographic Algorithm
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-2941372
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.16
+
+✗ Medium severity vulnerability found in openssl/libssl1.1
+  Description: Double Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-3314692
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.17
+
+✗ Medium severity vulnerability found in openssl/libssl1.1
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-3314703
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.17
+
+✗ Medium severity vulnerability found in openssl/libssl1.1
+  Description: Use After Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-3314740
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.17
+
+✗ Medium severity vulnerability found in openssl/libssl1.1
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-5661533
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.19
+
+✗ Medium severity vulnerability found in ncurses/libtinfo6
+  Description: Out-of-bounds Write
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-NCURSES-5423141
+  Introduced through: ncurses/libtinfo6@6.2-0ubuntu2, bash@5.0-6ubuntu1.1, ncurses/libncurses6@6.2-0ubuntu2, ncurses/ncurses-bin@6.2-0ubuntu2, procps@2:3.3.16-1ubuntu2.3, util-linux/fdisk@2.34-0.1ubuntu9.1, util-linux/mount@2.34-0.1ubuntu9.1, ncurses/libncursesw6@6.2-0ubuntu2, ncurses/ncurses-base@6.2-0ubuntu2
+  From: ncurses/libtinfo6@6.2-0ubuntu2
+  From: bash@5.0-6ubuntu1.1 > ncurses/libtinfo6@6.2-0ubuntu2
+  From: ncurses/libncurses6@6.2-0ubuntu2 > ncurses/libtinfo6@6.2-0ubuntu2
+  and 12 more...
+  Fixed in: 6.2-0ubuntu2.1
+
+✗ Medium severity vulnerability found in libtasn1-6
+  Description: Algorithmic Complexity
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-LIBTASN16-8689564
+  Introduced through: libtasn1-6@4.16.0-2, apt@2.0.6
+  From: libtasn1-6@4.16.0-2
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6 > libtasn1-6@4.16.0-2
+  Fixed in: 4.16.0-2ubuntu0.1
+
+✗ Medium severity vulnerability found in gzip
+  Description: Improper Input Validation
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GZIP-2442549
+  Introduced through: gzip@1.10-0ubuntu4
+  From: gzip@1.10-0ubuntu4
+  Fixed in: 1.10-0ubuntu4.1
+
+✗ Medium severity vulnerability found in gnutls28/libgnutls30
+  Description: Double Free
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GNUTLS28-2965992
+  Introduced through: gnutls28/libgnutls30@3.6.13-2ubuntu1.6, apt@2.0.6, gnupg2/dirmngr@2.2.19-3ubuntu2.1
+  From: gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: gnupg2/dirmngr@2.2.19-3ubuntu2.1 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  Fixed in: 3.6.13-2ubuntu1.7
+
+✗ Medium severity vulnerability found in gnutls28/libgnutls30
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GNUTLS28-3319580
+  Introduced through: gnutls28/libgnutls30@3.6.13-2ubuntu1.6, apt@2.0.6, gnupg2/dirmngr@2.2.19-3ubuntu2.1
+  From: gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: gnupg2/dirmngr@2.2.19-3ubuntu2.1 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  Fixed in: 3.6.13-2ubuntu1.8
+
+✗ Medium severity vulnerability found in gnutls28/libgnutls30
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GNUTLS28-6069042
+  Introduced through: gnutls28/libgnutls30@3.6.13-2ubuntu1.6, apt@2.0.6, gnupg2/dirmngr@2.2.19-3ubuntu2.1
+  From: gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: gnupg2/dirmngr@2.2.19-3ubuntu2.1 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  Fixed in: 3.6.13-2ubuntu1.9
+
+✗ Medium severity vulnerability found in gnutls28/libgnutls30
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GNUTLS28-6172192
+  Introduced through: gnutls28/libgnutls30@3.6.13-2ubuntu1.6, apt@2.0.6, gnupg2/dirmngr@2.2.19-3ubuntu2.1
+  From: gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: gnupg2/dirmngr@2.2.19-3ubuntu2.1 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  Fixed in: 3.6.13-2ubuntu1.10
+
+✗ Medium severity vulnerability found in gnutls28/libgnutls30
+  Description: Use of a Broken or Risky Cryptographic Algorithm
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GNUTLS28-6481604
+  Introduced through: gnutls28/libgnutls30@3.6.13-2ubuntu1.6, apt@2.0.6, gnupg2/dirmngr@2.2.19-3ubuntu2.1
+  From: gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: gnupg2/dirmngr@2.2.19-3ubuntu2.1 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  Fixed in: 3.6.13-2ubuntu1.11
+
+✗ Medium severity vulnerability found in gnutls28/libgnutls30
+  Description: Algorithmic Complexity
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GNUTLS28-8707699
+  Introduced through: gnutls28/libgnutls30@3.6.13-2ubuntu1.6, apt@2.0.6, gnupg2/dirmngr@2.2.19-3ubuntu2.1
+  From: gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: apt@2.0.6 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  From: gnupg2/dirmngr@2.2.19-3ubuntu2.1 > gnutls28/libgnutls30@3.6.13-2ubuntu1.6
+  Fixed in: 3.6.13-2ubuntu1.12
+
+✗ Medium severity vulnerability found in gnupg2/gpgv
+  Description: Arbitrary Code Injection
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GNUPG2-2940666
+  Introduced through: gnupg2/gpgv@2.2.19-3ubuntu2.1, apt@2.0.6, gnupg2/dirmngr@2.2.19-3ubuntu2.1
+  From: gnupg2/gpgv@2.2.19-3ubuntu2.1
+  From: apt@2.0.6 > gnupg2/gpgv@2.2.19-3ubuntu2.1
+  From: gnupg2/dirmngr@2.2.19-3ubuntu2.1
+  Fixed in: 2.2.19-3ubuntu2.2
+
+✗ Medium severity vulnerability found in glibc/libc-bin
+  Description: Off-by-one Error
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-2359259
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.7
+
+✗ Medium severity vulnerability found in glibc/libc-bin
+  Description: CVE-2024-2961
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-6663150
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.15
+
+✗ Medium severity vulnerability found in glibc/libc-bin
+  Description: CVE-2024-33600
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-6674185
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.16
+
+✗ Medium severity vulnerability found in glibc/libc-bin
+  Description: CVE-2024-33599
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-6674200
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.16
+
+✗ Medium severity vulnerability found in glibc/libc-bin
+  Description: CVE-2024-33601
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-6674209
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.16
+
+✗ Medium severity vulnerability found in glibc/libc-bin
+  Description: CVE-2024-33602
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-6674218
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.16
+
+✗ Medium severity vulnerability found in glibc/libc-bin
+  Description: CVE-2025-0395
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-GLIBC-8659168
+  Introduced through: glibc/libc-bin@2.31-0ubuntu9.2, glibc/libc6@2.31-0ubuntu9.2
+  From: glibc/libc-bin@2.31-0ubuntu9.2
+  From: glibc/libc6@2.31-0ubuntu9.2
+  Fixed in: 2.31-0ubuntu9.17
+
+✗ Medium severity vulnerability found in e2fsprogs/libcom-err2
+  Description: Out-of-bounds Read
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-E2FSPROGS-2770719
+  Introduced through: e2fsprogs/libcom-err2@1.45.5-2ubuntu1, e2fsprogs@1.45.5-2ubuntu1, e2fsprogs/libext2fs2@1.45.5-2ubuntu1, e2fsprogs/libss2@1.45.5-2ubuntu1, e2fsprogs/logsave@1.45.5-2ubuntu1
+  From: e2fsprogs/libcom-err2@1.45.5-2ubuntu1
+  From: e2fsprogs@1.45.5-2ubuntu1 > e2fsprogs/libcom-err2@1.45.5-2ubuntu1
+  From: e2fsprogs@1.45.5-2ubuntu1 > e2fsprogs/libss2@1.45.5-2ubuntu1 > e2fsprogs/libcom-err2@1.45.5-2ubuntu1
+  and 7 more...
+  Fixed in: 1.45.5-2ubuntu1.1
+
+✗ Medium severity vulnerability found in dpkg
+  Description: Directory Traversal
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-DPKG-2847995
+  Introduced through: dpkg@1.19.7ubuntu3
+  From: dpkg@1.19.7ubuntu3
+  Fixed in: 1.19.7ubuntu3.2
+
+✗ Medium severity vulnerability found in ca-certificates
+  Description: Insufficient Verification of Data Authenticity
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-CACERTIFICATES-3165206
+  Introduced through: ca-certificates@20210119~20.04.1
+  From: ca-certificates@20210119~20.04.1
+  Fixed in: 20211016ubuntu0.20.04.1
+
+✗ High severity vulnerability found in openssl/libssl1.1
+  Description: Loop with Unreachable Exit Condition ('Infinite Loop')
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-2426343
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.12
+
+✗ High severity vulnerability found in openssl/libssl1.1
+  Description: Access of Resource Using Incompatible Type ('Type Confusion')
+  Info: https://security.snyk.io/vuln/SNYK-UBUNTU2004-OPENSSL-3314788
+  Introduced through: openssl/libssl1.1@1.1.1f-1ubuntu2.8, ca-certificates@20210119~20.04.1, openssl@1.1.1f-1ubuntu2.8
+  From: openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: ca-certificates@20210119~20.04.1 > openssl@1.1.1f-1ubuntu2.8 > openssl/libssl1.1@1.1.1f-1ubuntu2.8
+  From: openssl@1.1.1f-1ubuntu2.8
+  and 1 more...
+  Fixed in: 1.1.1f-1ubuntu2.17
+
+------------ Detected 27 vulnerabilities for node@12.22.5 ------------ 
+
+
+✗ Low severity vulnerability found in node
+  Description: Permissive Cross-domain Policy with Untrusted Domains
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-6252338
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 18.19.1, 20.11.1, 21.6.2
+
+✗ Low severity vulnerability found in node
+  Description: Authorization Bypass
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-7430907
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 20.15.1, 22.4.1
+
+✗ Low severity vulnerability found in node
+  Description: Authorization Bypass
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-7430909
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 20.15.1, 22.4.1
+
+✗ Low severity vulnerability found in node
+  Description: Improper Handling of Values
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-7430912
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 20.15.1, 22.4.1
+
+✗ Medium severity vulnerability found in node
+  Description: HTTP Request Smuggling
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-1731310
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 12.22.7, 14.18.1, 16.11.1
+
+✗ Medium severity vulnerability found in node
+  Description: HTTP Request Smuggling
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-1731312
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 12.22.7, 14.18.1, 16.11.1
+
+✗ Medium severity vulnerability found in node
+  Description: Improper Certificate Validation
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-2332185
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 12.22.9, 14.18.3, 16.13.2, 17.3.1
+
+✗ Medium severity vulnerability found in node
+  Description: Improper Certificate Validation
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-2332191
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 12.22.9, 14.18.3, 16.13.2, 17.3.1
+
+✗ Medium severity vulnerability found in node
+  Description: Improper Handling of URL Encoding
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-2332192
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 12.22.9, 14.18.3, 16.13.2, 17.3.1
+
+✗ Medium severity vulnerability found in node
+  Description: DNS Rebinding
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-2946423
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 14.20.0, 16.16.0, 18.5.0
+
+✗ Medium severity vulnerability found in node
+  Description: HTTP Request Smuggling
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-2946427
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 14.20.0, 16.16.0, 18.5.0
+
+✗ Medium severity vulnerability found in node
+  Description: HTTP Request Smuggling
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-2946428
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 14.20.0, 16.16.0, 18.5.0
+
+✗ Medium severity vulnerability found in node
+  Description: HTTP Request Smuggling
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-2946723
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 14.20.0, 16.16.0, 18.5.0
+
+✗ Medium severity vulnerability found in node
+  Description: DLL Hijacking
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-2946727
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 14.20.0, 16.16.0, 18.5.0
+
+✗ Medium severity vulnerability found in node
+  Description: Information Exposure
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-2946729
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 14.20.0, 16.16.0, 18.5.0
+
+✗ Medium severity vulnerability found in node
+  Description: Inconsistency Between Implementation and Documented Design
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-5741796
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 16.20.1, 18.16.1, 20.3.1
+
+✗ Medium severity vulnerability found in node
+  Description: Observable Timing Discrepancy
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-6252330
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 18.19.1, 20.11.1, 21.6.2
+
+✗ Medium severity vulnerability found in node
+  Description: HTTP Request Smuggling
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-6564550
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 18.20.1, 20.12.1, 21.7.2
+
+✗ Medium severity vulnerability found in node
+  Description: Improper Control of Generation of Code ('Code Injection')
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-7430900
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 18.20.4, 20.15.1, 22.4.1
+
+✗ Medium severity vulnerability found in node
+  Description: Access Restriction Bypass
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-7430905
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 18.20.4, 20.15.1, 22.4.1
+
+✗ High severity vulnerability found in node
+  Description: Prototype Pollution
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-2332186
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 12.22.9, 14.18.3, 16.13.2, 17.3.1
+
+✗ High severity vulnerability found in node
+  Description: Infinite loop
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-5811867
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 12.22.11
+
+✗ High severity vulnerability found in node
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-6252328
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 18.19.1, 20.11.1, 21.6.2
+
+✗ High severity vulnerability found in node
+  Description: Code Injection
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-6252332
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 18.19.1, 20.11.1, 21.6.2
+
+✗ High severity vulnerability found in node
+  Description: Allocation of Resources Without Limits or Throttling
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-6564548
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 18.20.1, 20.12.1, 21.7.2
+
+✗ High severity vulnerability found in node
+  Description: Improper Control of Generation of Code ('Code Injection')
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-6615824
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 18.20.2, 20.12.2, 21.7.3
+
+✗ High severity vulnerability found in node
+  Description: Server-Side Request Forgery (SSRF)
+  Info: https://security.snyk.io/vuln/SNYK-UPSTREAM-NODE-8379641
+  Introduced through: node@12.22.5
+  From: node@12.22.5
+  Fixed in: 18.19.1, 20.11.1, 21.6.2
+
+Organization:      team-alpha
+Package manager:   deb
+Project name:      docker-image|snyk/broker
+Docker image:      snyk/broker:jira
+Platform:          linux/amd64
+Base image:        ubuntu:focal-20210827
+Licenses:          enabled
+
+Tested 96 dependencies for known issues, found 127 issues.
+
+Base Image             Vulnerabilities  Severity
+ubuntu:focal-20210827  80               0 critical, 0 high, 37 medium, 43 low
+
+Recommendations for base image upgrade:
+
+Minor upgrades
+Base Image    Vulnerabilities  Severity
+ubuntu:20.04  18               0 critical, 0 high, 5 medium, 13 low
+
+Major upgrades
+Base Image    Vulnerabilities  Severity
+ubuntu:24.04  14               0 critical, 0 high, 7 medium, 7 low
+
+
+Learn more: https://docs.snyk.io/products/snyk-container/getting-around-the-snyk-container-ui/base-image-detection
+
+-------------------------------------------------------
+
+Testing snyk/broker:jira...
+
+Tested 203 dependencies for known issues, found 23 issues.
+
+
+Issues to fix by upgrading:
+
+  Upgrade snyk-broker@4.116.0 to snyk-broker@4.196.7 to fix
+  ✗ Cross-site Scripting [Low Severity][https://security.snyk.io/vuln/SNYK-JS-SEND-7926862] in send@0.17.1
+    introduced by snyk-broker@4.116.0 > express@4.17.1 > send@0.17.1 and 1 other path(s)
+  ✗ Cross-site Scripting [Low Severity][https://security.snyk.io/vuln/SNYK-JS-SERVESTATIC-7926865] in serve-static@1.14.1
+    introduced by snyk-broker@4.116.0 > express@4.17.1 > serve-static@1.14.1
+  ✗ Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-COOKIE-8163060] in cookie@0.4.1
+    introduced by snyk-broker@4.116.0 > engine.io@5.2.0 > cookie@0.4.1 and 1 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PATHTOREGEXP-7925106] in path-to-regexp@0.1.7
+    introduced by snyk-broker@4.116.0 > express@4.17.1 > path-to-regexp@0.1.7 and 1 other path(s)
+  ✗ Cross-site Scripting [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-EXPRESS-7926867] in express@4.17.1
+    introduced by snyk-broker@4.116.0 > express@4.17.1
+  ✗ Open Redirect [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-EXPRESS-6474509] in express@4.17.1
+    introduced by snyk-broker@4.116.0 > express@4.17.1
+  ✗ Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-REQUEST-3361831] in request@2.88.2
+    introduced by snyk-broker@4.116.0 > request@2.88.2
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TOUGHCOOKIE-5672873] in tough-cookie@2.5.0
+    introduced by snyk-broker@4.116.0 > request@2.88.2 > tough-cookie@2.5.0
+  ✗ Asymmetric Resource Consumption (Amplification) [High Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-7926860] in body-parser@1.19.0
+    introduced by snyk-broker@4.116.0 > body-parser@1.19.0 and 1 other path(s)
+  ✗ Prototype Poisoning [High Severity][https://security.snyk.io/vuln/SNYK-JS-QS-3153490] in qs@6.7.0
+    introduced by snyk-broker@4.116.0 > body-parser@1.19.0 > qs@6.7.0 and 4 other path(s)
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-WS-7266574] in ws@7.4.6
+    introduced by snyk-broker@4.116.0 > engine.io@5.2.0 > ws@7.4.6 and 1 other path(s)
+  ✗ Uncaught Exception [High Severity][https://security.snyk.io/vuln/SNYK-JS-ENGINEIO-5496331] in engine.io@5.2.0
+    introduced by snyk-broker@4.116.0 > engine.io@5.2.0
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-JSONSCHEMA-1920922] in json-schema@0.2.3
+    introduced by snyk-broker@4.116.0 > request@2.88.2 > http-signature@1.2.0 > jsprim@1.4.1 > json-schema@0.2.3
+  ✗ Denial of Service (DoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-ENGINEIO-3136336] in engine.io@5.2.0
+    introduced by snyk-broker@4.116.0 > engine.io@5.2.0
+  ✗ Uncaught Exception [High Severity][https://security.snyk.io/vuln/SNYK-JS-ENGINEIO-2336356] in engine.io@5.2.0
+    introduced by snyk-broker@4.116.0 > engine.io@5.2.0
+
+
+Issues with no direct upgrade or patch:
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-ASYNC-2441827] in async@3.2.1
+    introduced by snyk-broker@4.116.0 > snyk-config@4.0.0 > async@3.2.1
+  This issue was fixed in versions: 2.6.4, 3.2.2
+  ✗ Missing Release of Resource after Effective Lifetime [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-INFLIGHT-6095116] in inflight@1.0.6
+    introduced by snyk-broker@4.116.0 > bunyan@1.8.15 > mv@2.1.1 > rimraf@2.4.5 > glob@6.0.4 > inflight@1.0.6
+  No upgrade or patch available
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMATCH-3050818] in minimatch@3.0.4
+    introduced by snyk-broker@4.116.0 > minimatch@3.0.4 and 1 other path(s)
+  This issue was fixed in versions: 3.0.5
+  ✗ Prototype Pollution [Low Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMIST-2429795] in minimist@1.2.5
+    introduced by snyk-broker@4.116.0 > minimist@1.2.5 and 2 other path(s)
+  This issue was fixed in versions: 0.2.4, 1.2.6
+  ✗ Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-MOMENT-2440688] in moment@2.29.1
+    introduced by snyk-broker@4.116.0 > bunyan@1.8.15 > moment@2.29.1
+  This issue was fixed in versions: 2.29.2
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-MOMENT-2944238] in moment@2.29.1
+    introduced by snyk-broker@4.116.0 > bunyan@1.8.15 > moment@2.29.1
+  This issue was fixed in versions: 2.29.4
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PATHTOREGEXP-8482416] in path-to-regexp@0.1.7
+    introduced by snyk-broker@4.116.0 > express@4.17.1 > path-to-regexp@0.1.7
+  This issue was fixed in versions: 0.1.12
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-PREDEFINE-1054935] in predefine@0.1.2
+    introduced by snyk-broker@4.116.0 > primus@6.1.0 > fusing@1.0.0 > predefine@0.1.2
+  This issue was fixed in versions: 0.1.3
+
+
+
+Organization:      team-alpha
+Package manager:   npm
+Target file:       /home/node/.npm-global/lib/node_modules
+Project name:      lib
+Docker image:      snyk/broker:jira
+Licenses:          enabled
+
+Snyk wasn’t able to auto detect the base image, use `--file` option to get base image remediation advice.
+Example: $ snyk container test snyk/broker:jira --file=path/to/Dockerfile
+
+Snyk found some vulnerabilities in your image applications (Snyk searches for these vulnerabilities by default). See https://snyk.co/app-vulns for more information.
+
+To remove these messages in the future, please run `snyk config set disableSuggestions=true`
+
+-------------------------------------------------------
+
+Testing snyk/broker:jira...
+
+Tested 256 dependencies for known issues, found 12 issues.
+
+
+Issues to fix by upgrading:
+
+  Upgrade npm@7.24.0 to npm@11.0.0 to fix
+  ✗ Uncontrolled Resource Consumption ('Resource Exhaustion') [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TAR-6476909] in tar@6.1.11
+    introduced by npm@7.24.0 > tar@6.1.11 and 68 other path(s)
+  ✗ Missing Release of Resource after Effective Lifetime [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-INFLIGHT-6095116] in inflight@1.0.6
+    introduced by npm@7.24.0 > glob@7.1.7 > inflight@1.0.6 and 189 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-MINIMATCH-3050818] in minimatch@3.0.4
+    introduced by npm@7.24.0 > glob@7.1.7 > minimatch@3.0.4 and 204 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-HTTPCACHESEMANTICS-3248783] in http-cache-semantics@4.1.0
+    introduced by npm@7.24.0 > make-fetch-happen@9.1.0 > http-cache-semantics@4.1.0 and 21 other path(s)
+  ✗ Server-Side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IP-7148531] in ip@1.1.5
+    introduced by npm@7.24.0 > make-fetch-happen@9.1.0 > socks-proxy-agent@6.0.0 > socks@2.6.1 > ip@1.1.5 and 21 other path(s)
+  ✗ Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-REQUEST-3361831] in request@2.88.2
+    introduced by npm@7.24.0 > node-gyp@7.1.2 > request@2.88.2 and 17 other path(s)
+  ✗ Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-TOUGHCOOKIE-5672873] in tough-cookie@2.5.0
+    introduced by npm@7.24.0 > node-gyp@7.1.2 > request@2.88.2 > tough-cookie@2.5.0 and 17 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-SEMVER-3247795] in semver@7.3.5
+    introduced by npm@7.24.0 > semver@7.3.5 and 201 other path(s)
+  ✗ Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-ANSIREGEX-1583908] in ansi-regex@2.1.1
+    introduced by npm@7.24.0 > cli-columns@3.1.2 > strip-ansi@3.0.1 > ansi-regex@2.1.1 and 60 other path(s)
+  ✗ Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JS-IP-6240864] in ip@1.1.5
+    introduced by npm@7.24.0 > make-fetch-happen@9.1.0 > socks-proxy-agent@6.0.0 > socks@2.6.1 > ip@1.1.5 and 21 other path(s)
+  ✗ Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-JSONSCHEMA-1920922] in json-schema@0.2.3
+    introduced by npm@7.24.0 > node-gyp@7.1.2 > request@2.88.2 > http-signature@1.2.0 > jsprim@1.4.1 > json-schema@0.2.3 and 17 other path(s)
+  ✗ Prototype Poisoning [High Severity][https://security.snyk.io/vuln/SNYK-JS-QS-3153490] in qs@6.5.2
+    introduced by npm@7.24.0 > node-gyp@7.1.2 > request@2.88.2 > qs@6.5.2 and 17 other path(s)
+
+
+
+Organization:      team-alpha
+Package manager:   npm
+Target file:       /usr/local/lib/node_modules
+Project name:      lib
+Docker image:      snyk/broker:jira
+Licenses:          enabled
+
+Snyk wasn’t able to auto detect the base image, use `--file` option to get base image remediation advice.
+Example: $ snyk container test snyk/broker:jira --file=path/to/Dockerfile
+
+Snyk found some vulnerabilities in your image applications (Snyk searches for these vulnerabilities by default). See https://snyk.co/app-vulns for more information.
+
+To remove these messages in the future, please run `snyk config set disableSuggestions=true`
+
+
+Tested 3 projects, 3 contained vulnerable paths.
+
+
+

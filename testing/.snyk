@@ -1,0 +1,4 @@
+ignore:
+  npm:adm-zip:20180415:
+    - '*':
+        reason: None Given
