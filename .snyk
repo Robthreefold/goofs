@@ -5,17 +5,17 @@ ignore:
   SNYK-UBUNTU2004-OPENSSL-2426343:
     - '*':
         reason: Testing policy file ignores
-        expires: 2025-04-03T20:08:14.720Z
+        expires: 2027-04-03T20:08:14.720Z
         created: 2025-03-04T20:08:14.723Z
   SNYK-UPSTREAM-NODE-6252332:
     - '*':
         reason: Testing policy file ignores
-        expires: 2025-04-03T20:10:30.930Z
+        expires: 2027-04-03T20:10:30.930Z
         created: 2025-03-04T20:10:30.938Z
   SNYK-JS-IP-6240864:
     - '*':
         reason: Testing policy file ignores
-        expires: 2025-04-03T20:34:33.598Z
+        expires: 2027-04-03T20:34:33.598Z
         created: 2025-03-04T20:34:33.607Z
   npm:adm-zip:20180415:
       - '*':
