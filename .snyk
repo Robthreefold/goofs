@@ -23,3 +23,7 @@ ignore:
   npm:ejs:20161128:
       - '*':
           reason: Testing policy file ignores new
+
+exclude:
+    global:
+    - /routes
