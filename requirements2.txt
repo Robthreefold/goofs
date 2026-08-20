@@ -8,3 +8,6 @@ PyJWT==1.7.1
 requests==2.23.0
 urllib3==1.25.9
 wrapt==1.12.1
+pandas==2.2.3
+pytz==2025.1
+scipy==1.15.3
